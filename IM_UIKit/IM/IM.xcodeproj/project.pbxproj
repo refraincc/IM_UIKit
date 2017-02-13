@@ -10,12 +10,11 @@
 		3A82C931EBCB3229C4C206ED /* libPods-IM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49821593A1699262D48A3A82 /* libPods-IM.a */; };
 		42BDB2AC1E5206F10076EF74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2AB1E5206F10076EF74 /* main.m */; };
 		42BDB2AF1E5206F10076EF74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2AE1E5206F10076EF74 /* AppDelegate.m */; };
-		42BDB2B21E5206F10076EF74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2B11E5206F10076EF74 /* ViewController.m */; };
-		42BDB2B51E5206F10076EF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDB2B31E5206F10076EF74 /* Main.storyboard */; };
 		42BDB2B71E5206F10076EF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BDB2B61E5206F10076EF74 /* Assets.xcassets */; };
 		42BDB2BA1E5206F10076EF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BDB2B81E5206F10076EF74 /* LaunchScreen.storyboard */; };
 		42BDB2C51E5206F10076EF74 /* IMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2C41E5206F10076EF74 /* IMTests.m */; };
 		42BDB2D01E5206F10076EF74 /* IMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2CF1E5206F10076EF74 /* IMUITests.m */; };
+		42BDB2E91E520F290076EF74 /* RCLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BDB2E81E520F290076EF74 /* RCLoginManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +39,6 @@
 		42BDB2AB1E5206F10076EF74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42BDB2AD1E5206F10076EF74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42BDB2AE1E5206F10076EF74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42BDB2B01E5206F10076EF74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42BDB2B11E5206F10076EF74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		42BDB2B41E5206F10076EF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42BDB2B61E5206F10076EF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BDB2B91E5206F10076EF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BDB2BB1E5206F10076EF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +48,8 @@
 		42BDB2CB1E5206F10076EF74 /* IMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BDB2CF1E5206F10076EF74 /* IMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMUITests.m; sourceTree = "<group>"; };
 		42BDB2D11E5206F10076EF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BDB2E71E520F290076EF74 /* RCLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLoginManager.h; sourceTree = "<group>"; };
+		42BDB2E81E520F290076EF74 /* RCLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLoginManager.m; sourceTree = "<group>"; };
 		49821593A1699262D48A3A82 /* libPods-IM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA72FD2593529454D6A257A /* Pods-IM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IM.release.xcconfig"; path = "Pods/Target Support Files/Pods-IM/Pods-IM.release.xcconfig"; sourceTree = "<group>"; };
 		859D979991C3522DF7FF438B /* Pods-IM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IM/Pods-IM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,11 +114,9 @@
 		42BDB2A91E5206F10076EF74 /* IM */ = {
 			isa = PBXGroup;
 			children = (
+				42BDB2DD1E520ED00076EF74 /* Classes */,
 				42BDB2AD1E5206F10076EF74 /* AppDelegate.h */,
 				42BDB2AE1E5206F10076EF74 /* AppDelegate.m */,
-				42BDB2B01E5206F10076EF74 /* ViewController.h */,
-				42BDB2B11E5206F10076EF74 /* ViewController.m */,
-				42BDB2B31E5206F10076EF74 /* Main.storyboard */,
 				42BDB2B61E5206F10076EF74 /* Assets.xcassets */,
 				42BDB2B81E5206F10076EF74 /* LaunchScreen.storyboard */,
 				42BDB2BB1E5206F10076EF74 /* Info.plist */,
@@ -153,6 +149,87 @@
 				42BDB2D11E5206F10076EF74 /* Info.plist */,
 			);
 			path = IMUITests;
+			sourceTree = "<group>";
+		};
+		42BDB2DD1E520ED00076EF74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42BDB2DE1E520ED00076EF74 /* Category */,
+				42BDB2DF1E520ED00076EF74 /* Common */,
+				42BDB2E01E520ED00076EF74 /* LayoutConfig */,
+				42BDB2E11E520ED00076EF74 /* Sections */,
+				42BDB2E21E520ED00076EF74 /* Service */,
+				42BDB2E31E520ED00076EF74 /* Util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		42BDB2DE1E520ED00076EF74 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		42BDB2DF1E520ED00076EF74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		42BDB2E01E520ED00076EF74 /* LayoutConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LayoutConfig;
+			sourceTree = "<group>";
+		};
+		42BDB2E11E520ED00076EF74 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				42BDB2E41E520F090076EF74 /* Login */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		42BDB2E21E520ED00076EF74 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		42BDB2E31E520ED00076EF74 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		42BDB2E41E520F090076EF74 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				42BDB2E51E520F090076EF74 /* Manager */,
+				42BDB2E61E520F090076EF74 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		42BDB2E51E520F090076EF74 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				42BDB2E71E520F290076EF74 /* RCLoginManager.h */,
+				42BDB2E81E520F290076EF74 /* RCLoginManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		42BDB2E61E520F090076EF74 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		4557ED65FB5ED954B5BC5B64 /* Pods */ = {
@@ -275,7 +352,6 @@
 			files = (
 				42BDB2BA1E5206F10076EF74 /* LaunchScreen.storyboard in Resources */,
 				42BDB2B71E5206F10076EF74 /* Assets.xcassets in Resources */,
-				42BDB2B51E5206F10076EF74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BDB2B21E5206F10076EF74 /* ViewController.m in Sources */,
 				42BDB2AF1E5206F10076EF74 /* AppDelegate.m in Sources */,
 				42BDB2AC1E5206F10076EF74 /* main.m in Sources */,
+				42BDB2E91E520F290076EF74 /* RCLoginManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,14 +462,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		42BDB2B31E5206F10076EF74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				42BDB2B41E5206F10076EF74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		42BDB2B81E5206F10076EF74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -582,6 +650,7 @@
 				42BDB2D61E5206F10076EF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BDB2D71E5206F10076EF74 /* Build configuration list for PBXNativeTarget "IMTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +659,7 @@
 				42BDB2D91E5206F10076EF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42BDB2DA1E5206F10076EF74 /* Build configuration list for PBXNativeTarget "IMUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +668,7 @@
 				42BDB2DC1E5206F10076EF74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
